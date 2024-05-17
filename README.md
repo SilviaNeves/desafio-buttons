@@ -6,8 +6,11 @@ Seu objetivo é criar um componente de botão em React com os seguintes estados:
 https://github.com/campinho-digital/desafio-buttons/assets/108235987/e7d3e948-735b-492f-9ecf-8ac5bec89d12
 
 Normal: O estado padrão do botão.
+
 Loading: O botão entra em um estado de carregamento quando estiver processando alguma ação.
+
 Desativado: O botão fica desativado e não pode ser clicado.
+
 Selecionado: O botão muda seu estilo quando estiver selecionado.
 
 
