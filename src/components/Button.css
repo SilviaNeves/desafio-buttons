@@ -1,0 +1,94 @@
+
+.App {
+    background-color: rgb(231, 244, 189);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 40px 40px;   
+    border-radius: 20px; 
+    border-style:groove;
+    border-color: #3bc70c;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+/* responsivo para telas maiores */
+@media (min-width: 600px) {
+    button {
+        width: 200px;
+    }
+}
+.normal-button {
+    background-color: #311bba; 
+    border-color:  rgb(1, 1, 36);
+    color: white;
+}
+
+.loading-button {
+    background-color: #b6ddea; 
+    border-color:  rgb(1, 1, 36);
+    color: rgb(73, 70, 70);
+    cursor: progress;
+    
+}
+
+.active-button {
+    background-color: #e51111; 
+    color: rgb(40, 35, 35);
+    border-color:  rgb(1, 1, 36);
+}
+
+.inactive-button {
+    background-color: #3bc70c; 
+    border-color:  rgb(1, 1, 36);
+
+    color: white;
+}
+
+.select-button {
+    background-color: #c1dae7; 
+    color: rgb(40, 35, 35);
+    border-color:  rgb(1, 1, 36);
+
+}
+
+.deselect-button {
+    background-color: #12ad79; 
+    color: white;
+    border-color:  rgb(1, 1, 36);
+
+}
+input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: beige;
+    width: 200px;
+    height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    color: #311bba;
+    border-radius: 10px;
+    border-color:  rgb(1, 1, 36);
+
+}
+.text {
+    justify-content: center;
+    color: #333; 
+    font-style:unset;
+    font-size: 16px;
+    text-align: center;
+}
